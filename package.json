@@ -1,5 +1,5 @@
 {
-  "name": "passport",
+  "name": "passport-tut",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,13 +12,16 @@
   "author": "Ankit Verma <ankit.verma@affle.com$>",
   "license": "ISC",
   "dependencies": {
+    "@hapi/boom": "^7.4.2",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "express-session": "^1.16.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.5.4",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
